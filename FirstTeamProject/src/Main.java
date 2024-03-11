@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
     future("this");
-    greet("hello", 5);
+    greet("nazdar");
     cheer(1,2);
     count(1994);
       
@@ -25,9 +25,7 @@ public class Main {
 
     }
 
-    public static void greet(String hello, int howMany) {
-        for (int i = 0; i < howMany; i++) {
-            System.out.println(hello);
+    public static void greet(String hello) {
+        System.out.println(hello);
         }
     }
-}
