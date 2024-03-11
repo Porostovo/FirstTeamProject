@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
     cheer();
     future();
-    count();
+    count(1994, 3);
     greet();
     }
 
@@ -14,8 +14,8 @@ public class Main {
         System.out.println("Hello Yellow Team!");
     }
 
-    public static void count() {
-        System.out.println(29);
+    public static void count(int year, int month) {
+        System.out.println(year + " " + month + " age: " + 29);
 
 
     }
