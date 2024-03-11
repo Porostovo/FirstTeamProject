@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
     cheer();
-    future();
+    future("Saggitarius", 12);
     count();
     greet();
     }
 
-    public static void future(){
-        System.out.println("Saggitarius");
+    public static void future(String zodiac, int month){
+        System.out.println("Your zodiac is " + zodiac + "month" + month);
 
     }
     public static void cheer(){
