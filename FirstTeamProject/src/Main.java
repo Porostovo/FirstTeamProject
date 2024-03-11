@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
     cheer();
-    future();
+    future("this");
     count();
     greet("hello", 5);
     
     }
 
-    public static void future(){
-        System.out.println("Saggitarius");
+    public static void future(String something){
+        System.out.println("Your future looks like " + something);
     }
     public static void cheer(){
         System.out.println("Hello Yellow Team!");
