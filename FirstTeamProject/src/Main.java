@@ -4,6 +4,7 @@ public class Main {
     future();
     count();
     greet("hello", 5);
+    
     }
 
     public static void future(){
