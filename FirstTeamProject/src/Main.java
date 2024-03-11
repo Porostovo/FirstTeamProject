@@ -12,8 +12,8 @@ public class Main {
         System.out.println("Your future looks like " + something);
     }
 
-    public static void cheer(int b){
-        System.out.println("Hello" + b + "Yellow Team!");
+    public static void cheer(int a){
+        System.out.println("Hello" + a + "Yellow Team!");
 
     }
 
