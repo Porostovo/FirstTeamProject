@@ -1,24 +1,15 @@
 public class Main {
     public static void main(String[] args) {
 
-    cheer();
     future("this");
-    count();
     greet("hello", 5);
-    
+    cheer(1,2);
+    count(1994);
+      
     }
 
     public static void future(String something){
         System.out.println("Your future looks like " + something);
-
-        int a = 1;
-        int b = 2;
-
-
-        cheer(a,b);
-        count(1994, 3);
-        future("Saggitarius", 12);
-        greet("hello", 5);
     }
 
     public static void future(String zodiac, int month) {
