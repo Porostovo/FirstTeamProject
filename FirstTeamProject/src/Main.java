@@ -4,6 +4,7 @@ public class Main {
         int a = 1;
         int b = 2;
 
+
         cheer(a,b);
         count(1994, 3);
         future("Saggitarius", 12);
@@ -22,8 +23,9 @@ public class Main {
         System.out.println("Hello Yellow Team! " + a + b);
     }
 
-    public static void count(int year, int month) {
-        System.out.println(year + " " + month + " age: " + 29);
+    public static void count(int a) {
+        System.out.println("Counting the countless" + a);
+
 
     }
 
