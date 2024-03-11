@@ -10,8 +10,8 @@ public class Main {
         System.out.println("Your zodiac is " + zodiac + "month" + month);
 
     }
-    public static void cheer(int a){
-        System.out.println("Hello" + a + "Yellow Team!");
+    public static void cheer(int b){
+        System.out.println("Hello" + b + "Yellow Team!");
     }
 
     public static void count() {
