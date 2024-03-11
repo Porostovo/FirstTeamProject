@@ -10,6 +10,7 @@ public class Main {
 
     public static void future(String something) {
         System.out.println("Your future looks like " + something);
+        System.out.println("printout"); // changed
     }
 
     public static void future(String zodiac, int month) {
