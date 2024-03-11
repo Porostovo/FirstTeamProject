@@ -3,7 +3,7 @@ public class Main {
     cheer();
     future();
     count(1994, 3);
-    greet();
+    greet("Ondrej");
     }
 
     public static void future(){
@@ -19,7 +19,7 @@ public class Main {
 
 
     }
-    public static void greet(){
-        System.out.println("Jáchym");
+    public static void greet(String greetings){
+        System.out.println("Hello " + greetings);
     }
 }
