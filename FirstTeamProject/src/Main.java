@@ -14,7 +14,7 @@ public class Main {
 
     }
     public static void cheer(int a, int b){
-        System.out.println("Hello Yellow Team!");
+        System.out.println("Hello Yellow Team! " + a + b);
     }
 
     public static void count() {
