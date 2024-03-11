@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-    cheer();
+    cheer(2);
     future("Saggitarius", 12);
     count();
     greet();
@@ -10,8 +10,8 @@ public class Main {
         System.out.println("Your zodiac is " + zodiac + "month" + month);
 
     }
-    public static void cheer(){
-        System.out.println("Hello Yellow Team!");
+    public static void cheer(int a){
+        System.out.println("Hello" + a + "Yellow Team!");
     }
 
     public static void count() {
