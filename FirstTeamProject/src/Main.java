@@ -1,6 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-    cheer();
+        int a = 1;
+        int b = 2;
+
+    cheer(a,b);
     future();
     count();
     greet();
@@ -10,7 +13,7 @@ public class Main {
         System.out.println("Saggitarius");
 
     }
-    public static void cheer(){
+    public static void cheer(int a, int b){
         System.out.println("Hello Yellow Team!");
     }
 
