@@ -5,7 +5,7 @@ public class Main {
 
     cheer(a,b);
     future();
-    count();
+    count(10);
     greet();
     }
 
@@ -17,8 +17,8 @@ public class Main {
         System.out.println("Hello Yellow Team! " + a + b);
     }
 
-    public static void count() {
-        System.out.println(29);
+    public static void count(int a) {
+        System.out.println("Counting the countless" + a);
 
 
     }
