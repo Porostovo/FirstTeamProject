@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
 
-    future("this");
-    greet("nazdar");
-    cheer(1,2);
-    count(1994);
-      
+        future("this");
+        greet("nazdar");
+        cheer(1, 2);
+        count(1994);
     }
 
-    public static void future(String something){
+
+    public static void future(String something) {
         System.out.println("Your future looks like " + something);
     }
 
@@ -27,5 +27,6 @@ public class Main {
 
     public static void greet(String hello) {
         System.out.println(hello);
-        }
     }
+}
+
