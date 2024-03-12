@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         future("this");
         greet("nazdarek", "kamo");
-        cheer("test");
+        cheer("our favourite");
         count(1994);
     }
 
@@ -12,8 +12,8 @@ public class Main {
         System.out.println("printout"); // changed
     }
 
-    public static void cheer(String a){
-        System.out.println("Hello" + a + "Yellow Team!");
+    public static void cheer(String word){
+        System.out.println("Hello" + word + "Yellow Team!");
 
     }
 
