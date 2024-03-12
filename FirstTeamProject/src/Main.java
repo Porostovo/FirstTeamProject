@@ -18,7 +18,7 @@ public class Main {
     }
 
     public static void count(int a) {
-        System.out.println("Counting the countless" + a);
+        System.out.println("Counting the countless" + a + "today test " + a);
 
     }
 
