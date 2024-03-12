@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         future("this");
-        greet("nazdar");
+        greet("nazdarek", "kamo");
         cheer("our favourite");
         count(1994);
     }
@@ -22,8 +22,9 @@ public class Main {
 
     }
 
-    public static void greet(String hello) {
+    public static void greet(String hello, String name) {
         System.out.println(hello);
+        System.out.println(hello + " " + name);
     }
 }
 
