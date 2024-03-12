@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         future(125);
-        greet("nazdar");
-        cheer("test");
+        greet("nazdarek", "kamo");
+        cheer("our favourite");
         count(1994);
     }
 
@@ -12,8 +12,8 @@ public class Main {
         System.out.println("printout"); // changed
     }
 
-    public static void cheer(String a){
-        System.out.println("Hello" + a + "Yellow Team!");
+    public static void cheer(String word){
+        System.out.println("Hello" + word + "Yellow Team!");
 
     }
 
@@ -22,8 +22,9 @@ public class Main {
 
     }
 
-    public static void greet(String hello) {
+    public static void greet(String hello, String name) {
         System.out.println(hello);
+        System.out.println(hello + " " + name);
     }
 }
 
